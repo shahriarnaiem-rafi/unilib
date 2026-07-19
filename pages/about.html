@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - UniLib Library Management System</title>
+
+    <!-- Bootstrap 5 -->
+    <link href="../bootstrap-5.0.2-dist/css/bootstrap.min.css" rel="stylesheet">
+            <link rel="icon" type="image/x-icon" href="../favicon.png">
+
+
+    <style>
+        body{
+            background-color:#f8f9fa;
+        }
+
+        .hero-section{
+            background: linear-gradient(rgba(0,0,0,.65),rgba(0,0,0,.65)),
+            url('https://images.unsplash.com/photo-1521587760476-6c12a4b040da');
+            background-size: cover;
+            background-position: center;
+            height: 50vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+        }
+
+        .feature-card{
+            transition: .3s;
+        }
+
+        .feature-card:hover{
+            transform: translateY(-8px);
+        }
+
+        .team-card img{
+            height: 250px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+
+<!-- ================= NAVBAR ================= -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container">
+
+        <a class="navbar-brand fw-bold" href="#">
+            📚 UniLib
+        </a>
+
+        <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+
+            <ul class="navbar-nav ms-auto">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">
+                        Home
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="./books.html">
+                        Books
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">
+                        About
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">
+                        Contact
+                    </a>
+                </li>
+
+            </ul>
+
+            <a href="#" class="btn btn-light ms-3">
+                Sign In
+            </a>
+
+        </div>
+    </div>
+</nav>
+
+<!-- ================= HERO SECTION ================= -->
+<section class="hero-section">
+    <div class="container">
+        <h1 class="display-4 fw-bold">About UniLib</h1>
+        <p class="lead">
+            A Modern Library Management System for Students and Libraries
+        </p>
+    </div>
+</section>
+
+<!-- ================= ABOUT ================= -->
+<section class="py-5">
+    <div class="container">
+
+        <div class="row align-items-center">
+
+            <div class="col-lg-6">
+                <img src="https://images.unsplash.com/photo-1524995997946-a1c2e315a42f"
+                     class="img-fluid rounded shadow"
+                     alt="Library">
+            </div>
+
+            <div class="col-lg-6">
+
+                <h2 class="fw-bold mb-3">
+                    Who We Are
+                </h2>
+
+                <p>
+                    UniLib is a web-based Library Management System designed to
+                    simplify library operations and improve access to educational
+                    resources. It enables students to search books, view availability,
+                    and manage library services through a user-friendly platform.
+                </p>
+
+                <p>
+                    The system helps librarians manage books, members, and issue/return
+                    records efficiently while reducing manual paperwork and improving
+                    data accuracy.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<!-- ================= MISSION & VISION ================= -->
+<section class="bg-light py-5">
+    <div class="container">
+
+        <div class="row text-center">
+
+            <div class="col-md-6">
+                <div class="card shadow border-0 h-100 feature-card">
+                    <div class="card-body">
+                        <h2>🎯 Mission</h2>
+                        <p>
+                            To provide a centralized digital platform that makes
+                            accessing and managing library resources easy, fast,
+                            and efficient.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card shadow border-0 h-100 feature-card">
+                    <div class="card-body">
+                        <h2>🚀 Vision</h2>
+                        <p>
+                            To transform traditional libraries into smart digital
+                            learning environments that support students and educators.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<!-- ================= FEATURES ================= -->
+<section class="py-5">
+    <div class="container">
+
+        <h2 class="text-center fw-bold mb-5">
+            Why Choose UniLib?
+        </h2>
+
+        <div class="row g-4">
+
+            <div class="col-md-4">
+                <div class="card shadow text-center h-100 feature-card">
+                    <div class="card-body">
+                        <h1>📚</h1>
+                        <h5>Book Management</h5>
+                        <p>
+                            Manage and organize thousands of books efficiently.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card shadow text-center h-100 feature-card">
+                    <div class="card-body">
+                        <h1>🔍</h1>
+                        <h5>Easy Search</h5>
+                        <p>
+                            Search books by title, author, category, or ISBN.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card shadow text-center h-100 feature-card">
+                    <div class="card-body">
+                        <h1>⚡</h1>
+                        <h5>Fast Access</h5>
+                        <p>
+                            Access library information quickly and securely.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<!-- ================= PROJECT INFO ================= -->
+<section class="bg-light py-5">
+    <div class="container text-center">
+
+        <h2 class="fw-bold mb-4">
+            Project Information
+        </h2>
+
+        <p>
+            <strong>Project Name:</strong> UniLib – Smart Library App
+        </p>
+
+        <p>
+            <strong>Department:</strong> Computer Science and Engineering (CSE)
+        </p>
+
+        <p>
+            <strong>University:</strong> Bangladesh University of Business and Technology (BUBT)
+        </p>
+
+        <p>
+            <strong>Course:</strong> CSE 318 – System Analysis and Design Lab
+        </p>
+
+    </div>
+</section>
+
+<!-- ================= TEAM ================= -->
+<section class="py-5">
+    <div class="container">
+
+        <h2 class="text-center fw-bold mb-5">
+            Project Developer
+        </h2>
+
+        <div class="row justify-content-center">
+
+            <div class="col-md-4">
+                <div class="card shadow team-card">
+
+                    <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43"
+                         class="card-img-top"
+                         alt="Developer">
+
+                    <div class="card-body text-center">
+                        <h5>Shahriar Naiem Rafi</h5>
+                        <p class="text-muted">
+                            Student, Department of CSE
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="bg-dark text-white py-3">
+    <div class="container text-center">
+
+        <p class="mb-0">
+            © 2026 UniLib - Smart Library App | All Rights Reserved
+        </p>
+
+    </div>
+</footer>
+
+<script src="../bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
